@@ -1,5 +1,10 @@
 # esp32-rust
 
+  https://user-images.githubusercontent.com/77025415/226487016-6d681429-1612-4e83-b4eb-5ef9313be155.mov
+
+  Developed by: <a href="https://www.github.com/gabrielAlonsoCabral">@GabrielAlonsoCabral</a>  
+ <br/>
+
 ### Build
 - Terminal approach:
 
@@ -23,13 +28,3 @@ used.
     ```
     > If no argument is passed, `release` will be used as default
     
-#### Debuging with Wokwi
-
-Wokwi offers debugging with GDB.
-
-- Terminal approach:
-    ```
-    $HOME/.espressif/tools/xtensa-esp32-elf/esp-2021r2-patch3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gdb target/xtensa-esp32-espidf/debug/esp32-rust -ex "target remote localhost:9333"
-    ```
-
-    > [Wokwi Blog: List of common GDB commands for debugging.](https://blog.wokwi.com/gdb-avr-arduino-cheatsheet/?utm_source=urish&utm_medium=blog)
